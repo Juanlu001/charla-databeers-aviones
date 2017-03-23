@@ -11883,6 +11883,7 @@ protector de pantalla).</p>
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
+<p><img src="img/countdown.jpg" alt="Countdown"></p>
 
 </div>
 </div>
@@ -12398,9 +12399,11 @@ require(
 
         // Full list of configuration options available here: https://github.com/hakimel/reveal.js#configuration
         Reveal.initialize({
-            controls: true,
+            autoSlide: 20000,
+            loop: false,
+            controls: false,
             progress: true,
-            history: true,
+            history: false,
 
             theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
             transition: Reveal.getQueryHash().transition || 'linear', // default/cube/page/concave/zoom/linear/none
