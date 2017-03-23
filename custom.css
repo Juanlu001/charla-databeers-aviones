@@ -1,0 +1,15 @@
+.reveal section img {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.reveal blockquote {
+  box-shadow: none;
+  border-left: 10px rgba(0, 0, 0, 0.2) solid;
+  padding-left: 40px;
+}
+
+.reveal blockquote p {
+  font-size: 2em;
+  line-height: 1.5em;
+}
